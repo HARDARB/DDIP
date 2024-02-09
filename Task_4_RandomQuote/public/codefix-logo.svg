@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.19 29.29">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: LucidaHandwriting-Italic, 'Lucida Handwriting';
+        font-size: 4.33px;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        stroke-width: .51px;
+      }
+
+      .cls-3, .cls-5, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke-width: 2.41px;
+      }
+
+      .cls-4 {
+        stroke-width: .24px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(5.06 17.79)"><tspan x="0" y="0">Codefix</tspan></text>
+      <circle class="cls-5" cx="14.04" cy="14.04" r="12.84"/>
+      <path class="cls-1" d="M22.16,21.15h4.42c1.83,0,3.31,1.48,3.31,3.31v1.32c0,1.83-1.48,3.31-3.31,3.31h-4.42v-7.94h0Z" transform="translate(25.38 -11.04) rotate(45)"/>
+      <g>
+        <path class="cls-4" d="M10.79,12.9c0-1.82,1.47-3.29,3.29-3.29s3.29,1.47,3.29,3.29"/>
+        <path class="cls-3" d="M14.7,10.63c0-1.13,.91-2.04,2.04-2.04"/>
+        <path class="cls-3" d="M13.59,10.63c0-1.13-.91-2.04-2.04-2.04"/>
+        <circle class="cls-4" cx="11.13" cy="8.54" r=".61"/>
+        <circle class="cls-4" cx="16.74" cy="8.54" r=".61"/>
+      </g>
+    </g>
+  </g>
+</svg>

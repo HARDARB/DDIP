@@ -1,0 +1,218 @@
+/* ---Linked font ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* ------------- Body ------------------------- */
+body {
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn_space .btn {
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+
+/* -------------------Navbar ----------- */
+.navbar {
+    z-index: 2;
+}
+
+
+/* -------------------Hero section ----------- */
+.hero_section .hero_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+.hero_description-details {
+    margin-top: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.now {
+    position: fixed;
+    margin-top: 20px;
+    transition: all 1s ease-in-out;
+  }
+
+  #text.now h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+  #text.now p{
+    display: none;
+}
+
+
+.text_background{
+    background-color: rgba(255, 255, 255, 0.87);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.hero_stif {
+    position: relative;
+    height: 400px;
+    
+}
+
+
+.hero_section .hero_description h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero_section .hero_description p {
+    width: 70%;
+    margin: 20px auto;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+.hero_section .baloon {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+
+.hero_section .baloon img{
+    width: 50px;  
+}
+
+
+.image_gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: -2;
+}
+
+.image_gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.image_gallery .side_two .inner_one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.image_gallery .side_two .inner_one a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image_gallery .side_two .inner_two a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.image_gallery .side_two .inner_two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.image_gallery .side_one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.image_gallery .side_two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .hero_section .hero_description h1 {
+        font-size: 96px;
+    }
+
+    .hero_section .baloon img{
+        width: 100px;
+       
+    }
+
+    #text.now h1{
+        font-size: 50px;
+    }
+
+    .text_background {
+        height: 130px;
+    }
+
+    .image_gallery {
+        flex-direction: row;
+    }
+
+    .image_gallery .side_one {
+        width: 30%;
+    }
+
+    .image_gallery .side_two {
+        width: 70%;
+    }
+
+    .image_gallery .side_two .inner_two {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .image_gallery .side_two .inner_one {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+       height: 80%;
+    }
+
+}
+
+
+/* ----------------Text below hero section ----------- */
+.Below_image_text {
+    text-align: center;
+    padding: 30px;
+}
+
+.hero_section .btn {
+    border-radius: 0;
+}

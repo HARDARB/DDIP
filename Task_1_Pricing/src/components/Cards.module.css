@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap');
+
+
+
+.Cards {
+    height: 2000px;
+    box-sizing: border-box;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Cards a {
+    text-decoration: none;
+}
+
+.cards_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Cards_cover {
+    border-radius: 26px;
+    background: #FFD1E3;
+    padding: 5px 40px 30px 40px;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.Cards_cover2 {
+    border-radius: 26px;
+    background: #5D3587;
+    padding: 5px 40px 30px 40px;
+    text-align: center;
+    transition: all 1s ease;
+    color: white;
+}
+
+.Heading_text {
+    padding: 1rem 2rem;
+}
+
+.Heading_text p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+input[type="checkbox"] {
+
+    position: relative;
+    width: 244px;
+    height: 38px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #5D3587;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
+}
+
+input[type="checkbox"]::before {
+    font-weight: 700;
+    color: #5D3587;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    content: "MONTHLY";
+    border-radius: 41px;
+    width: 125px;
+    height: 38px;
+    background: #FFD1E3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+input[type="checkbox"]:checked::before {
+    font-weight: 700;
+    color: white;
+    content: "YEARLY";
+    transform: translateX(100%);
+    background: #5D3587;
+}
+
+input[type="checkbox"]:checked {
+    background: #FFD1E3;
+}
+
+.Cards_cover2:hover,
+.Cards_cover:hover {
+    box-shadow: 1px 1px 12.2px 9px rgba(0, 0, 0, 0.31);
+
+}
+
+.Cards_cover .icons {
+    background: #5D3587;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: aliceblue;
+}
+
+.Cards_cover2 .icons {
+    background: #FFD1E3;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: #5D3587;
+}
+
+.month_year {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Cards_cover li,
+.Cards_cover2 li {
+    list-style: none;
+    text-align: start;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Cards_cover ul,
+.Cards_cover2 ul {
+    padding-inline-start: 10px;
+}
+
+.Cards_cover h1,
+.Cards_cover2 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.Cards_cover .btn {
+    border-radius: 24px;
+    background: #5D3587;
+    padding: 5px 30px;
+    color: white;
+}
+.Cards_cover .btn:hover {
+    background: white;
+    color: black;
+}
+
+.Cards_cover2 .btn {
+    border-radius: 24px;
+    background: #FFD1E3;
+    padding: 5px 30px;
+    color: #5D3587;
+}
+.Cards_cover2 .btn:hover {
+    background: white;
+    color: black;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 20px;
+    float: none;
+}
+
+.svg_backgroung {
+    position: absolute;
+    z-index: -1;
+}
+
+.svg_backgroung svg {
+    position: relative;
+    width: 100vw;
+}
+
+
+
+
+@media (min-width: 768px) { 
+
+    .Cards {
+        height: 120vh;
+        box-sizing: border-box;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cards_body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .button {
+        margin: 30px;
+        float: none;
+    }
+
+    .Heading_text {
+        padding: 2rem 4rem;
+    }
+    
+    .Heading_text p {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .svg_backgroung {
+        position: absolute;
+        top: 90%;
+        z-index: -1;
+    }
+    
+    .svg_backgroung svg {
+        position: relative;
+        width: 100vw;
+    }
+    
+    
+ }
